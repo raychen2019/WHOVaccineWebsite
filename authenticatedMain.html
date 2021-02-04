@@ -57,8 +57,13 @@
         firebase.initializeApp(firebaseConfig);
       </script>
 
+
 <br/><br/><br/>
-  <table class="table table-striped" style = " text-align: center; flex-direction: column; align-items: center; ">
+<h2 id = "data" style = " text-align: center; flex-direction: column; align-items: center; ">
+  <div>Vaccine Delivery Record</div> <br/>
+</h2>
+
+<table class="table table-striped" style = " text-align: center; flex-direction: column; align-items: center; ">
     <thead>
         <tr>
             <th>Date vaccines ship out</th>
@@ -88,8 +93,8 @@
 
   <div id = "data" style = " text-align: center; flex-direction: column; align-items: center; ">
     <div>Enter new entry</div> <br/>
-    <input type = "date" id = "date_shipped" placeholder = "Date shipped out">
-    <input type = "date" id = "date_arrival" placeholder = "Date shipped out">
+    <input type = "date" id = "date_shipped" placeholder = "Ship out date">
+    <input type = "date" id = "date_arrival" placeholder = "Arrival date">
     <input type = "text" id = "from" placeholder = "Departure destination">
     <input type = "text" id = "to" placeholder = "Arrival destination">
     <input type = "number" id = "quantity" placeholder = "# of vaccines shipped">
