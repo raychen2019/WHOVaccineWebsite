@@ -1,0 +1,10 @@
+nav
+{
+    font-size: large;
+    color: #537fbe;
+}
+
+input, button{
+    padding: 10px;
+    height: 40px;
+}
